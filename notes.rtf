@@ -1,0 +1,319 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red42\green55\blue62;\red238\green240\blue241;}
+{\*\expandedcolortbl;;\cssrgb\c21569\c27843\c30980;\cssrgb\c94510\c95294\c95686\c74902;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww34360\viewh18280\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs54 \cf0 Data ty
+\fs74 \
+\
+Data types in C\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Int\
+Float\
+Char\
+Double\
+Long\
+Short\
+\
+\
+Python - objects\
+\'97\'97\'97\'97\'97\'97\
+Number\
+\'97\'97\'97\'97\
+Number can be integer or decimal or octal or hexadecimal.\
+\
+Aval =. 10\
+\
+String\
+\'97\'97\'97\
+String is defined in single or double or triple quotes.\
+\
+\
+ aname  = \'93python\'94\
+ Bname.  = \'93java programming\'94\
+\
+\
+\
+\
+List. ( array. )\
+\'97\'97\
+List contains set of elements.\
+Elements can be numbers or strings or any combination.\
+List is defined in []\
+\
+Alist = [10,20,30,40]\
+Blist = [\'93java\'94,\'94unix\'94,\'94oracle\'94]\
+Clist = [30,4.34,\'94java\'94,[30,40,50],(404,40)]\
+\
+\
+\
+Tuple. ( read only ,  immutable , unchangeable )\
+\'97\'97\'97\
+Tuple contains set of elements.\
+Elements can be numbers or strings or any combination.\
+Tuple is defined in ().\
+**** Elements inside tuple can\'92t be modified directly ****\
+\
+Atup = (10,20,30)\
+\
+\
+Dictionary ( Hashmap/Hash/json/associative array )\
+\'97\'97\'97\'97\'97\
+Dictionary contains elements in keys and values.\
+Keys are always unique in dictionary\
+Key can be number or string used to identify the value.\
+Value can be number or string or list or tuple or dictionary or anything complex datastructure.\
+\
+syntax:    object = \{key:value , key:value, key:value \}\
+example:   book = \{\'93chap1\'94:10 ,\'94chap2\'94:20 ,\'94chap3\'94:30 \}\
+               bookinfo=\{\'93chap1\'94:[10,\'94Rita\'94,\'94US\'94]  ,\'94chap2\'94:[\'93ram\'94,10,\'94UK\'94] \}\
+                 Data = \{1:2,3:4,5:6,1:10\}\
+\
+\
+ Index\
+\'97\'97\'97\'97\
+Chap1  10\
+Chap2   20\
+Chap3   30\
+Chap4.  40\
+\
+\
+\
+\
+Set\
+\'97\'97\
+Set is unordered collection of UNIQUE elements of same type.\
+\
+\
+\
+\
+File extensions\
+\'97\'97\'97\'97\'97\'97\'97\'97\
+.txt\
+.csv\
+.xlsx\
+.doc/docx\
+.bin\
+.hex\
+.png\
+.jpeg\
+.mpeg\
+Mp4\
+Mp3\
+Pdf\
+Ppt/pptx\
+Zip\
+Rar\
+.7z\
+.tar\
+.gz\
+.tar.gz\
+.log\
+.json\
+.xml\
+.rtf\
+\
+Flat files can be read directly without third party library\
+\'97\'97\'97\'97\'97\'97\
+Flat files :  txt. Xml  json   csv  log ..\
+\
+\
+We need install some third party library in order to work with below extension.\
+Third party files :  pdf  docx. Pptx xlsx. Mp4. .zip\
+\
+\
+\
+Working with csv files :  csv\
+Working with json files:  json library\
+\
+ Xml                            : xml.dom\
+\
+\
+\
+Working with csv files\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Read mode :  r\
+Write mode :  w\
+Append mode : a\
+\
+Opening the file\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Syntax:    object = open(filename, mode)\
+                 fobj = open(\'93customers.txt\'94,\'94r\'94) # read operation\
+					fw = open(\'93customers.txt\'94,\'94w\'94)  # write mode\
+					fa = open(\'93customers.txt\'94,\'94a\'94)   # append\
+\
+Closing the file\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+fobj.close()\
+\
+READING THE FILE\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+1. Reading the file line by line ( preferred )\
+2. fobj.readlines()\
+3  fobj.read()\
+4. Using csv library for csv files/ json library for json files. ( preferred)\
+5. Using pandas library\
+\
+\
+\
+Exception handling\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+There are 2 types of errors\
+\
+1. Syntax error\
+2. Semantic error or runtime error or logical error.\
+\
+Handling the errors that during runtime is known as exception handling.\
+\
+try\
+except\
+else\
+finally\
+raise\
+\
+\
+\
+\
+\
+\
+\
+Working with json files\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+\
+Creating REST APIs. ( libraries flask, Django, fastapi \'85 )\
+\
+Consuming REST APIs. ( CRUD operations \
+\
+                                       SQL\
+                                    \'97\'97\'97\'97\'97\'97\'97\
+requests.get().         \'97> select query\
+ Requests.put()       \'97> update query\
+requests.delete().    \'97> delete query\
+ requests.post() ).    \'97-> insert query\
+\
+\
+\
+\
+\
+REST operations\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Import requests\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 https://www.googleapis.com/youtube/v3/activies
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs74 \cf0 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 https://www.googleapis.com/youtube/v3/activies
+\f0\fs74 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+Analytics \
+\'97\'97\'97\'97\'97\
+\
+Phase2 & 3 - data processing\
+\'97\'97\'97\'97\'97\
+Pandas.   Data processing\
+Matplotlib ( mathematical plotting library) - visualisation library\
+Numpy.    - Low level data processing\
+Scipy.      - scientific formulas\
+Seaborn. - modern library for visualizations\
+\
+phase 4 & 5.  - model building\
+\'97\'97\'97\'97\'97\'97\'97\'97\
+Statsmodel.  - for building ML models\
+Scikit-learn.  - for building ML models\
+Tensorflow.  -  for building deep learning models\
+PyTorch   -  for building deep learning models\
+Keras.    -  for building deep learning models\
+Automl.   - automated ML\
+\
+Phase 6 -    deployment   ( non cloud , cloud )\
+\
+ML librareis\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0   |\
+  |\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Matplotlib,seaborn\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0   |\
+  |\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 pandas\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0   |\
+  |\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 scipy\
+  |\
+  |\
+numpy\
+\
+                 numpy ,scipy                  pandas.\'97> sklearn, seaborn,keras, \'97\'97\'97> <\'97\'97 gena\'97\'97\
+2000 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97 2010 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'972020\'97\'97\'972024\
+\
+\
+C - datatypes\
+Python - objects\
+\
+Pandas - datastructures\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+- series ( 1-D )\
+- dataframes  ( 2-D)\
+-panel ( collection of data frames)\
+\
+\
+ Df = pandas.read_csv(\'93filename\'94)\
+ df[\'91occupation\'92].unique()\
+\
+\
+\
+Csv library\
+Json library\
+Requests \
+Beautiful soup. \'97 extract the data from web\
+Openpyxl, xlrd, pyexcel,xlsxwriter \'97 excel files\
+cx_Oracle\
+Pymysql\
+Pymongo\
+\
+\
+I\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+\fs54 \
+\
+}
